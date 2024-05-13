@@ -34,12 +34,12 @@ Ensure you have the following libraries installed:
     ```bash
     python sales_prediction_gp.py
 
-# Importing Data
+## Importing Data
 
 The training and testing data should be provided in CSV format. Ensure that the file paths to the training and testing data are correctly specified in the script.
 
 
-# Genetic Programming Settings and other Parameter Configuration
+## Genetic Programming Settings and other Parameter Configuration
 
 | Parameter               | Description                                                                                      |
 |-------------------------|--------------------------------------------------------------------------------------------------|
@@ -56,18 +56,18 @@ The training and testing data should be provided in CSV format. Ensure that the 
 | attr_cost               | Range for generating random values for the 'cost' attribute.                                      |
 
 
-# Fitness Function
+## Fitness Function
 
 The fitness function evaluates the performance of each individual in the population based on the mean squared error (MSE) between the predicted and actual sales. The fitness is minimized.
 
 
-# Visualization
+## Visualization
 
 visualize_data: Scatter plot of input data for verification.
 visualize_predictions: Line plot comparing actual sales with predicted sales.
 
 
-# Results
+## Results
 
 The script outputs various performance metrics:
 
