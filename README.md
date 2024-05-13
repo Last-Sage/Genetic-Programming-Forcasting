@@ -63,8 +63,8 @@ The fitness function evaluates the performance of each individual in the populat
 
 ## Visualization
 
-visualize_data: Scatter plot of input data for verification.  
-visualize_predictions: Line plot comparing actual sales with predicted sales.  
+```visualize_data``` : Scatter plot of input data for verification.  
+```visualize_predictions``` : Line plot comparing actual sales with predicted sales.  
 
 
 ## Results
