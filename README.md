@@ -39,11 +39,21 @@ Ensure you have the following libraries installed:
 The training and testing data should be provided in CSV format. Ensure that the file paths to the training and testing data are correctly specified in the script.
 
 
-# Genetic Programming Settings
+# Genetic Programming Settings and other Parameter Configuration
 
-Individual Size: 50
-Population Size: 500
-Generations: 15
+| Parameter               | Description                                                                                      |
+|-------------------------|--------------------------------------------------------------------------------------------------|
+| individual_size         | The size of each individual in the population.                                                  |
+| population_size         | The size of the population.                                                                     |
+| generations             | The number of generations for which the genetic algorithm will run.                             |
+| cxpb                    | Crossover probability.                                                                          |
+| mutpb                   | Mutation probability.                                                                           |
+| tournsize               | Tournament size for selection.                                                                   |
+| file_name               | File path to the CSV file containing training and testing data.                                  |
+| attr_price              | Range for generating random values for the 'price' attribute.                                    |
+| attr_discount           | Range for generating random values for the 'discount' attribute.                                 |
+| attr_advertisement      | Range for generating random values for the 'advertisement' attribute.                            |
+| attr_cost               | Range for generating random values for the 'cost' attribute.                                      |
 
 
 # Fitness Function
