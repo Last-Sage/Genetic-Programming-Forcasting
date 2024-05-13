@@ -63,22 +63,22 @@ The fitness function evaluates the performance of each individual in the populat
 
 ## Visualization
 
-visualize_data: Scatter plot of input data for verification.
-visualize_predictions: Line plot comparing actual sales with predicted sales.
+visualize_data: Scatter plot of input data for verification.  
+visualize_predictions: Line plot comparing actual sales with predicted sales.  
 
 
 ## Results
 
-The script outputs various performance metrics:
+The script outputs various performance metrics:  <br>
 
-Mean squared error (MSE)
-R-squared value
-Mean absolute error (MAE)
-Root mean squared error (RMSE)
-Mean percentage error (MPE)
-Mean absolute percentage error (MAPE)
-Root mean squared percentage error (RMSPE)
-Coefficient of variation (CV)
+Mean squared error (MSE)  
+R-squared value  
+Mean absolute error (MAE)  
+Root mean squared error (RMSE)  
+Mean percentage error (MPE)  
+Mean absolute percentage error (MAPE)  
+Root mean squared percentage error (RMSPE)  
+Coefficient of variation (CV)  
 
 
 # Run this project in Google Colab
