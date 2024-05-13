@@ -43,17 +43,17 @@ The training and testing data should be provided in CSV format. Ensure that the 
 
 | Parameter               | Description                                                                                      |
 |-------------------------|--------------------------------------------------------------------------------------------------|
-| individual_size         | The size of each individual in the population.                                                  |
-| population_size         | The size of the population.                                                                     |
-| generations             | The number of generations for which the genetic algorithm will run.                             |
-| cxpb                    | Crossover probability.                                                                          |
-| mutpb                   | Mutation probability.                                                                           |
-| tournsize               | Tournament size for selection.                                                                   |
-| file_name               | File path to the CSV file containing training and testing data.                                  |
-| attr_price              | Range for generating random values for the 'price' attribute.                                    |
-| attr_discount           | Range for generating random values for the 'discount' attribute.                                 |
-| attr_advertisement      | Range for generating random values for the 'advertisement' attribute.                            |
-| attr_cost               | Range for generating random values for the 'cost' attribute.                                      |
+| `individual_size`        | The size of each individual in the population.                                                  |
+| `population_size`         | The size of the population.                                                                     |
+| `generations`             | The number of generations for which the genetic algorithm will run.                             |
+| `cxpb`                    | Crossover probability.                                                                          |
+| `mutpb`                   | Mutation probability.                                                                           |
+| `tournsize`               | Tournament size for selection.                                                                   |
+| `file_name`               | File path to the CSV file containing training and testing data.                                  |
+| `attr_price`              | Range for generating random values for the 'price' attribute.                                    |
+| `attr_discount`           | Range for generating random values for the 'discount' attribute.                                 |
+| `attr_advertisement`      | Range for generating random values for the 'advertisement' attribute.                            |
+| `attr_cost`               | Range for generating random values for the 'cost' attribute.                                      |
 
 
 ## Fitness Function
@@ -71,14 +71,18 @@ The fitness function evaluates the performance of each individual in the populat
 
 The script outputs various performance metrics:  <br>
 
-Mean squared error (MSE)  
-R-squared value  
-Mean absolute error (MAE)  
-Root mean squared error (RMSE)  
-Mean percentage error (MPE)  
-Mean absolute percentage error (MAPE)  
-Root mean squared percentage error (RMSPE)  
-Coefficient of variation (CV)  
+
+| Metric                           | Description                                                                                            |
+|----------------------------------|--------------------------------------------------------------------------------------------------------|
+| `Mean squared error (MSE)`        | The average of the squares of the differences between predicted and actual values.                      |
+| `R-squared value`                  | A statistical measure indicating the proportion of the variance in the dependent variable that is predictable from the independent variables. |
+| `Mean absolute error (MAE)`       | The average of the absolute differences between predicted and actual values.                           |
+| `Root mean squared error (RMSE)`  | The square root of the average of the squares of the differences between predicted and actual values.   |
+| `Mean percentage error (MPE)`     | The average of the percentage differences between predicted and actual values.                          |
+| `Mean absolute percentage error (MAPE)` | The average of the absolute percentage differences between predicted and actual values.              |
+| `Root mean squared percentage error (RMSPE)` | The square root of the average of the squares of the percentage differences between predicted and actual values. |
+| `Coefficient of variation (CV)`   | The ratio of the standard deviation to the mean, expressed as a percentage.                             |
+
 
 
 # Run this project in Google Colab
