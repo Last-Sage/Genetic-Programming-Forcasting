@@ -22,12 +22,12 @@ Ensure you have the following libraries installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/repo.git
+   git clone git clone https://github.com/Last-Sage/Genetic-Programming-Forcasting.git
 
 2. Navigate to the project directory:
 
     ```bash
-    cd repo
+    cd Genetic-Programming-Forcasting
 
 3. Run the main Python script:
 
