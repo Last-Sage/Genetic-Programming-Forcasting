@@ -32,7 +32,7 @@ Ensure you have the following libraries installed:
 3. Run the main Python script:
 
     ```bash
-    python sales_prediction_gp.py
+    python Genetic_Programming.py
 
 ## Importing Data
 
